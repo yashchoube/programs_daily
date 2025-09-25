@@ -1,6 +1,7 @@
 name: Daily Java Solution Push
 
 on:
+  workflow_dispatch:
   schedule:
     # Runs every day at 12:00 UTC (adjust if you want)
     - cron: '30 10 * * *'  # Runs every day at 10:30 UTC (4:00 PM IST)
